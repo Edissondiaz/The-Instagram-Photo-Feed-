@@ -150,3 +150,21 @@ body{
     padding: 0;
     margin: 0;
 }
+
+.col-sm-4 img{
+    border-radius: 5px;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;}
+
+.col-md-4 img{
+    border-radius: 5px;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;}
+
+.dropdown-menu{
+    float: right;
+}
