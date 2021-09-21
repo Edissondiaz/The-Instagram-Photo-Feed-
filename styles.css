@@ -59,7 +59,7 @@ body{
     
     width: 500px;
     height: 300px;
-    margin-top: 10px;
+    margin-top: 18px;
 
 }
 
@@ -122,4 +122,31 @@ body{
     margin-left: 10px;
 }
 
+.container-fluid{
+    margin: 0;
+}
 
+.nav-item-dropdown{
+    float: right;
+    padding-top: 0;
+}
+
+.fa-cog{
+    color: gray;
+    margin-left: 0;
+}
+
+.btn-success{
+    margin-left: 950px;
+}
+
+.ancla{
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.card{
+    padding: 0;
+    margin: 0;
+}
