@@ -28,16 +28,14 @@
             </li>
         </nav>
         <center class="ancla">
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                <label class="btn btn-secondary active">
-                  <input type="radio" name="options" id="option1" checked> <a href="/index.html"><i class="fas fa-square"></i></a>
-                  
-                </label>
-                <label class="btn btn-secondary">
-                  <input type="radio" name="options" id="option2"> <a href="/intro.html"><i class="fas fa-th"></i></a>
-                </label>
-                
-              </div>
+            <nav aria-label="Page navigation example" class="margen">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link text-secondary" href="intro.html">
+                        <i class="fas fa-th"></i></a>
+                    </li>
+                    <li class="page-item"><a class="page-link text-secondary" href="index.html">■</a></li>
+                </ul>
+            </nav>
         </center>
         <div class="container">
             <div class="row">
@@ -353,6 +351,28 @@
                             <div id="texto1">Like by <strong>4GeeksAcademic, html5, Web</strong> and <strong>100.000 others</strong></div>
                             <div id="texto2">Seeing a stone the size of the Peñol in the middle of nowhere and a lake is something interesting and very striking. The stone can be climbed up a series of somewhat tight stairs, in about 45 minutes or less. The view from above is beautiful and the photos taken are good. It is worth going back and forth,</div>
                         </div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-success">Publicar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
             
                     </div>
                 
